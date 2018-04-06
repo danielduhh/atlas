@@ -8,6 +8,7 @@ import org.openstreetmap.atlas.tags.annotations.TagValueAs;
  * OSM service tag. Does not include the documented but rarely used waterway related service tags.
  *
  * @author robert_stack
+ * @author daniel-baah
  */
 @Tag(taginfo = "http://taginfo.openstreetmap.org/keys/service#values", osm = "http://wiki.openstreetmap.org/wiki/Key:service")
 public enum ServiceTag
@@ -21,7 +22,10 @@ public enum ServiceTag
     SPUR,
     YARD,
     SIDING,
-    CROSSOVER;
+    CROSSOVER,
+    TRANSPORTATION,
+    WATER_POWER,
+    IRRIGATION;
 
     @TagKey
     public static final String KEY = "service";
