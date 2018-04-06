@@ -5,7 +5,7 @@ import org.openstreetmap.atlas.tags.annotations.TagKey;
 import org.openstreetmap.atlas.tags.annotations.TagValueAs;
 
 /**
- * OSM service tag. Does not include the documented but rarely used waterway related service tags.
+ * OSM service tag.
  *
  * @author robert_stack
  * @author daniel-baah
